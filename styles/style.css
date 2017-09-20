@@ -1,0 +1,68 @@
+html {
+  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-color: #656161;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #F11C1C;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+img.resize {
+  max-width:100%;
+  max-height:100%;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #FFFFFF;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.html-list {
+  list-style: square;
+}
+
+.css-list {
+  color: blue;
+}
+
+.center {
+  width: 100%;
+  margin: auto;
+  text-align: left;
+}
+
+.center-list {
+  width: 100%;
+  list-style-position: inside;
+  text-align: left;
+  display: inline-block;
+}
+
+#element1 {display: inline-block; width: 550px;}
+#element2 {display: inline-block; margin-right: 10px; }
